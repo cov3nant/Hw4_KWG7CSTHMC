@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.toprow {
+  color: red;
+}
+
+.box {
+  border: 5px solid transparent;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(236, 170, 170);
+}
+
+.counterPara {
+  font-size: 20px;
+}
+
+.icons {
+  color: red;
+}
+
+.icons-green {
+  color: green;
+}
+
+.innerBoxPadding {
+  color: red;
+  padding-top: 15px;
+  padding-bottom: 70px;
+}
+
+.inner-box {
+  background-color: #fac7c7;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.side-box {
+  border: 5px solid transparent;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(173, 165, 165);
+}
+/* Mobile */
+@media screen and (max-width: 768px) {
+  body {
+    display: none;
+  }
+}
